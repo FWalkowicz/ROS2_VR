@@ -1,0 +1,34 @@
+[6.819s] Invoking command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/ros_tcp_endpoint': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/ros_tcp_endpoint/build --no-deps symlink_data
+[7.192s] /home/walkowiczf/.local/lib/python3.10/site-packages/setuptools/dist.py:488: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[7.193s] !!
+[7.193s] 
+[7.193s]         ********************************************************************************
+[7.193s]         Usage of dash-separated 'script-dir' will not be supported in future
+[7.193s]         versions. Please use the underscore name 'script_dir' instead.
+[7.193s] 
+[7.193s]         This deprecation is overdue, please update your project and remove deprecated
+[7.193s]         calls to avoid build errors in the future.
+[7.194s] 
+[7.194s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[7.194s]         ********************************************************************************
+[7.194s] 
+[7.194s] !!
+[7.194s]   opt = self.warn_dash_deprecation(opt, section)
+[7.230s] /home/walkowiczf/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[7.230s]   warnings.warn(msg)
+[7.640s] running develop
+[8.209s] running egg_info
+[8.251s] writing ros_tcp_endpoint.egg-info/PKG-INFO
+[8.253s] writing dependency_links to ros_tcp_endpoint.egg-info/dependency_links.txt
+[8.253s] writing entry points to ros_tcp_endpoint.egg-info/entry_points.txt
+[8.255s] writing requirements to ros_tcp_endpoint.egg-info/requires.txt
+[8.255s] writing top-level names to ros_tcp_endpoint.egg-info/top_level.txt
+[8.328s] reading manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'
+[8.328s] writing manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'
+[8.362s] running build_ext
+[8.363s] Creating /home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros-tcp-endpoint.egg-link (link to .)
+[8.363s] Installing default_server_endpoint script to /home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[8.367s] 
+[8.371s] Installed /home/walkowiczf/MoveoUnity/MoveoROS2/build/ros_tcp_endpoint
+[8.372s] running symlink_data
+[8.438s] Invoked command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/ros_tcp_endpoint' returned '0': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/ros_tcp_endpoint/build --no-deps symlink_data

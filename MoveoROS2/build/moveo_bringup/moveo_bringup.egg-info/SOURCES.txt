@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+launch/robot.launch.py
+moveo_bringup/__init__.py
+moveo_bringup.egg-info/PKG-INFO
+moveo_bringup.egg-info/SOURCES.txt
+moveo_bringup.egg-info/dependency_links.txt
+moveo_bringup.egg-info/requires.txt
+moveo_bringup.egg-info/top_level.txt
+moveo_bringup.egg-info/zip-safe
+resource/moveo_bringup

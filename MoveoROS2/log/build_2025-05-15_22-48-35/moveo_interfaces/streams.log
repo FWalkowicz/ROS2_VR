@@ -1,0 +1,15 @@
+[2.331s] Invoking command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_interfaces': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_interfaces/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_interfaces/build --no-deps symlink_data
+[3.221s] running develop
+[4.156s] running egg_info
+[4.200s] writing moveo_interfaces.egg-info/PKG-INFO
+[4.202s] writing dependency_links to moveo_interfaces.egg-info/dependency_links.txt
+[4.203s] writing requirements to moveo_interfaces.egg-info/requires.txt
+[4.205s] writing top-level names to moveo_interfaces.egg-info/top_level.txt
+[4.265s] reading manifest file 'moveo_interfaces.egg-info/SOURCES.txt'
+[4.268s] writing manifest file 'moveo_interfaces.egg-info/SOURCES.txt'
+[4.300s] running build_ext
+[4.300s] Creating /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/lib/python3.10/site-packages/moveo-interfaces.egg-link (link to .)
+[4.300s] 
+[4.300s] Installed /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_interfaces
+[4.300s] running symlink_data
+[4.375s] Invoked command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_interfaces' returned '0': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_interfaces/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_interfaces/build --no-deps symlink_data

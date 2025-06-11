@@ -1,0 +1,15 @@
+[6.671s] Invoking command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_description': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_description/build --no-deps symlink_data
+[7.662s] running develop
+[8.206s] running egg_info
+[8.249s] writing moveo_description.egg-info/PKG-INFO
+[8.250s] writing dependency_links to moveo_description.egg-info/dependency_links.txt
+[8.250s] writing requirements to moveo_description.egg-info/requires.txt
+[8.251s] writing top-level names to moveo_description.egg-info/top_level.txt
+[8.341s] reading manifest file 'moveo_description.egg-info/SOURCES.txt'
+[8.341s] writing manifest file 'moveo_description.egg-info/SOURCES.txt'
+[8.378s] running build_ext
+[8.378s] Creating /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/lib/python3.10/site-packages/moveo-description.egg-link (link to .)
+[8.380s] 
+[8.380s] Installed /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_description
+[8.380s] running symlink_data
+[8.453s] Invoked command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_description' returned '0': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_description/build --no-deps symlink_data

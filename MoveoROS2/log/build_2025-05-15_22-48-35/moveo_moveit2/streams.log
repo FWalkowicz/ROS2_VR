@@ -1,0 +1,15 @@
+[2.326s] Invoking command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2/build --no-deps symlink_data
+[3.198s] running develop
+[3.651s] running egg_info
+[3.681s] writing moveo_moveit2.egg-info/PKG-INFO
+[3.681s] writing dependency_links to moveo_moveit2.egg-info/dependency_links.txt
+[3.681s] writing requirements to moveo_moveit2.egg-info/requires.txt
+[3.681s] writing top-level names to moveo_moveit2.egg-info/top_level.txt
+[3.732s] reading manifest file 'moveo_moveit2.egg-info/SOURCES.txt'
+[3.733s] writing manifest file 'moveo_moveit2.egg-info/SOURCES.txt'
+[3.771s] running build_ext
+[3.771s] Creating /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/lib/python3.10/site-packages/moveo-moveit2.egg-link (link to .)
+[3.777s] 
+[3.777s] Installed /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2
+[3.777s] running symlink_data
+[3.866s] Invoked command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2' returned '0': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2/build --no-deps symlink_data

@@ -1,0 +1,33 @@
+[0.208s] Invoking command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveit_msgs': BYOBU_DATE=%Y-%m-%d /usr/bin/cmake /home/walkowiczf/MoveoUnity/MoveoROS2/src/moveit_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs
+[1.084s] -- The C compiler identification is GNU 11.4.0
+[1.084s] -- The CXX compiler identification is GNU 11.4.0
+[1.084s] -- Detecting C compiler ABI info
+[1.084s] -- Detecting C compiler ABI info - done
+[1.084s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.084s] -- Detecting C compile features
+[1.084s] -- Detecting C compile features - done
+[1.084s] -- Detecting CXX compiler ABI info
+[1.084s] -- Detecting CXX compiler ABI info - done
+[1.085s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.085s] -- Detecting CXX compile features
+[1.085s] -- Detecting CXX compile features - done
+[1.085s] -- Configuring incomplete, errors occurred!
+[1.085s] See also "/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveit_msgs/CMakeFiles/CMakeOutput.log".
+[1.086s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[1.086s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.086s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.086s]   CMake did not find one.
+[1.086s] 
+[1.086s]   Could not find a package configuration file provided by "catkin" with any
+[1.086s]   of the following names:
+[1.086s] 
+[1.086s]     catkinConfig.cmake
+[1.086s]     catkin-config.cmake
+[1.086s] 
+[1.086s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.086s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.086s]   provides a separate development package or SDK, be sure it has been
+[1.086s]   installed.
+[1.086s] 
+[1.086s] [0m
+[1.262s] Invoked command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveit_msgs' returned '1': BYOBU_DATE=%Y-%m-%d /usr/bin/cmake /home/walkowiczf/MoveoUnity/MoveoROS2/src/moveit_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs

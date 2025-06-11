@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing moveo_bringup.egg-info/PKG-INFO
+writing dependency_links to moveo_bringup.egg-info/dependency_links.txt
+writing requirements to moveo_bringup.egg-info/requires.txt
+writing top-level names to moveo_bringup.egg-info/top_level.txt
+reading manifest file 'moveo_bringup.egg-info/SOURCES.txt'
+writing manifest file 'moveo_bringup.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup/lib/python3.10/site-packages/moveo-bringup.egg-link (link to .)
+
+Installed /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_bringup
+running symlink_data

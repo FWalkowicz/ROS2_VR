@@ -1,0 +1,29 @@
+[1.788s] Invoking command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2/build --no-deps symlink_data
+[2.264s] running develop
+[2.582s] running egg_info
+[2.598s] creating moveo_moveit2.egg-info
+[2.598s] writing moveo_moveit2.egg-info/PKG-INFO
+[2.599s] writing dependency_links to moveo_moveit2.egg-info/dependency_links.txt
+[2.599s] writing requirements to moveo_moveit2.egg-info/requires.txt
+[2.599s] writing top-level names to moveo_moveit2.egg-info/top_level.txt
+[2.599s] writing manifest file 'moveo_moveit2.egg-info/SOURCES.txt'
+[2.643s] reading manifest file 'moveo_moveit2.egg-info/SOURCES.txt'
+[2.644s] writing manifest file 'moveo_moveit2.egg-info/SOURCES.txt'
+[2.665s] running build_ext
+[2.665s] Creating /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/lib/python3.10/site-packages/moveo-moveit2.egg-link (link to .)
+[2.666s] 
+[2.666s] Installed /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2
+[2.667s] running symlink_data
+[2.667s] creating /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/share/ament_index/resource_index/packages
+[2.667s] symbolically linking /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2/resource/moveo_moveit2 -> /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/share/ament_index/resource_index/packages
+[2.667s] symbolically linking /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2/package.xml -> /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/share/moveo_moveit2
+[2.667s] creating /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/share/moveo_moveit2/launch
+[2.667s] symbolically linking /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2/launch/moveit.launch.py -> /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/share/moveo_moveit2/launch
+[2.667s] creating /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/share/moveo_moveit2/config
+[2.667s] symbolically linking /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2/config/joint_limits.yaml -> /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/share/moveo_moveit2/config
+[2.667s] symbolically linking /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2/config/kinematics.yaml -> /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/share/moveo_moveit2/config
+[2.667s] symbolically linking /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2/config/moveit_controllers.yaml -> /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/share/moveo_moveit2/config
+[2.667s] symbolically linking /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2/config/pilz_cartesian_limits.yaml -> /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/share/moveo_moveit2/config
+[2.668s] symbolically linking /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2/config/initial_position.yaml -> /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/share/moveo_moveit2/config
+[2.668s] symbolically linking /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2/config/moveo.srdf -> /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/share/moveo_moveit2/config
+[2.707s] Invoked command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2' returned '0': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2/build --no-deps symlink_data

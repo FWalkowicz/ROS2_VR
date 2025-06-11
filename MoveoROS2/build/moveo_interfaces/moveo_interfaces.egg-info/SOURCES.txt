@@ -1,0 +1,11 @@
+package.xml
+setup.cfg
+setup.py
+moveo_interfaces/__init__.py
+moveo_interfaces.egg-info/PKG-INFO
+moveo_interfaces.egg-info/SOURCES.txt
+moveo_interfaces.egg-info/dependency_links.txt
+moveo_interfaces.egg-info/requires.txt
+moveo_interfaces.egg-info/top_level.txt
+moveo_interfaces.egg-info/zip-safe
+resource/moveo_interfaces

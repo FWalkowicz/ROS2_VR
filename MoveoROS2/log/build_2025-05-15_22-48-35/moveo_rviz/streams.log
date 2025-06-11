@@ -1,0 +1,15 @@
+[2.337s] Invoking command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_rviz': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_rviz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_rviz/build --no-deps symlink_data
+[3.744s] running develop
+[4.575s] running egg_info
+[4.600s] writing moveo_rviz.egg-info/PKG-INFO
+[4.600s] writing dependency_links to moveo_rviz.egg-info/dependency_links.txt
+[4.602s] writing requirements to moveo_rviz.egg-info/requires.txt
+[4.602s] writing top-level names to moveo_rviz.egg-info/top_level.txt
+[4.661s] reading manifest file 'moveo_rviz.egg-info/SOURCES.txt'
+[4.664s] writing manifest file 'moveo_rviz.egg-info/SOURCES.txt'
+[4.692s] running build_ext
+[4.693s] Creating /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/lib/python3.10/site-packages/moveo-rviz.egg-link (link to .)
+[4.693s] 
+[4.694s] Installed /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_rviz
+[4.694s] running symlink_data
+[4.743s] Invoked command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_rviz' returned '0': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_rviz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_rviz/build --no-deps symlink_data
