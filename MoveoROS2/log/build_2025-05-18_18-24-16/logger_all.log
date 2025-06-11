@@ -1,0 +1,591 @@
+[0.204s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.205s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7285c957bee0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7285c9535870>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7285c9535870>>, mixin_verb=('build',))
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.307s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/walkowiczf/MoveoUnity/MoveoROS2'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extension 'ros'
+[0.334s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS-TCP-Endpoint-main-ros2' with type 'ros.ament_python' and name 'ros_tcp_endpoint'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_msgs) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_msgs) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_msgs) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_msgs) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_msgs) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_msgs) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_msgs) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_msgs) by extension 'ros'
+[0.337s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_msgs' with type 'ros.ament_cmake' and name 'moveit_msgs'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_bringup) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_bringup) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_bringup) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_bringup) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_bringup) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_bringup) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_bringup) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_bringup) by extension 'ros'
+[0.339s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveo_bringup' with type 'ros.ament_python' and name 'moveo_bringup'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_description) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_description) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_description) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_description) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_description) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_description) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_description) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_description) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_description) by extension 'ros'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveo_description' with type 'ros.ament_python' and name 'moveo_description'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_gazebo) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_gazebo) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_gazebo) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_gazebo) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_gazebo) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_gazebo) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_gazebo) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_gazebo) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveo_gazebo' with type 'ros.ament_python' and name 'moveo_gazebo'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_interfaces) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_interfaces) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_interfaces) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_interfaces) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_interfaces) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_interfaces) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_interfaces) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_interfaces) by extension 'ros'
+[0.346s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveo_interfaces' with type 'ros.ament_python' and name 'moveo_interfaces'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit) by extension 'ros'
+[0.347s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveo_moveit' with type 'ros.ament_cmake' and name 'moveo_moveit'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit2) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit2) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit2) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit2) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit2) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit2) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit2) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit2) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit2) by extension 'ros'
+[0.349s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveo_moveit2' with type 'ros.ament_python' and name 'moveo_moveit2'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_rviz) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_rviz) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_rviz) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_rviz) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_rviz) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_rviz) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_rviz) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_rviz) by extension 'ros'
+[0.351s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveo_rviz' with type 'ros.ament_python' and name 'moveo_rviz'
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.394s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/walkowiczf/MoveoUnity/MoveoROS2/install
+[0.394s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/walkowiczf/PycharmProjects/ROS2/install
+[0.396s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 455 installed packages in /opt/ros/humble
+[0.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'moveit_msgs' build argument 'cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'moveit_msgs' build argument 'cmake_target' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'moveit_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'moveit_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'moveit_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'moveit_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'moveit_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'moveit_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'moveit_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.489s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveit_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs', 'merge_install': False, 'path': '/home/walkowiczf/MoveoUnity/MoveoROS2/src/moveit_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'moveo_bringup' build argument 'cmake_args' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'moveo_bringup' build argument 'cmake_target' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'moveo_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'moveo_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'moveo_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'moveo_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'moveo_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'moveo_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'moveo_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.490s] DEBUG:colcon.colcon_core.verb:Building package 'moveo_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup', 'merge_install': False, 'path': '/home/walkowiczf/MoveoUnity/MoveoROS2/src/moveo_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'moveo_description' build argument 'cmake_args' from command line to 'None'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'moveo_description' build argument 'cmake_target' from command line to 'None'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'moveo_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'moveo_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'moveo_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'moveo_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'moveo_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'moveo_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'moveo_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.491s] DEBUG:colcon.colcon_core.verb:Building package 'moveo_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description', 'merge_install': False, 'path': '/home/walkowiczf/MoveoUnity/MoveoROS2/src/moveo_description', 'symlink_install': True, 'test_result_base': None}
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'moveo_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'moveo_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'moveo_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'moveo_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'moveo_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'moveo_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'moveo_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'moveo_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'moveo_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.492s] DEBUG:colcon.colcon_core.verb:Building package 'moveo_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo', 'merge_install': False, 'path': '/home/walkowiczf/MoveoUnity/MoveoROS2/src/moveo_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'moveo_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'moveo_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'moveo_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'moveo_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'moveo_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'moveo_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'moveo_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'moveo_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'moveo_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.492s] DEBUG:colcon.colcon_core.verb:Building package 'moveo_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces', 'merge_install': False, 'path': '/home/walkowiczf/MoveoUnity/MoveoROS2/src/moveo_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit2' build argument 'cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit2' build argument 'cmake_target' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit2' build argument 'cmake_clean_first' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit2' build argument 'cmake_force_configure' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit2' build argument 'ament_cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.493s] DEBUG:colcon.colcon_core.verb:Building package 'moveo_moveit2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2', 'merge_install': False, 'path': '/home/walkowiczf/MoveoUnity/MoveoROS2/src/moveo_moveit2', 'symlink_install': True, 'test_result_base': None}
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'moveo_rviz' build argument 'cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'moveo_rviz' build argument 'cmake_target' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'moveo_rviz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'moveo_rviz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'moveo_rviz' build argument 'cmake_clean_first' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'moveo_rviz' build argument 'cmake_force_configure' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'moveo_rviz' build argument 'ament_cmake_args' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'moveo_rviz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'moveo_rviz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.494s] DEBUG:colcon.colcon_core.verb:Building package 'moveo_rviz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_rviz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz', 'merge_install': False, 'path': '/home/walkowiczf/MoveoUnity/MoveoROS2/src/moveo_rviz', 'symlink_install': True, 'test_result_base': None}
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_args' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_cache' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_first' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_force_configure' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'ament_cmake_args' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_cmake_args' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.494s] DEBUG:colcon.colcon_core.verb:Building package 'ros_tcp_endpoint' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/walkowiczf/MoveoUnity/MoveoROS2/build/ros_tcp_endpoint', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint', 'merge_install': False, 'path': '/home/walkowiczf/MoveoUnity/MoveoROS2/src/ROS-TCP-Endpoint-main-ros2', 'symlink_install': True, 'test_result_base': None}
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit' build argument 'cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit' build argument 'cmake_target' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.495s] DEBUG:colcon.colcon_core.verb:Building package 'moveo_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit', 'merge_install': False, 'path': '/home/walkowiczf/MoveoUnity/MoveoROS2/src/moveo_moveit', 'symlink_install': True, 'test_result_base': None}
+[0.496s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.497s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.498s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/walkowiczf/MoveoUnity/MoveoROS2/src/moveo_description' with build type 'ament_python'
+[0.499s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveo_description', 'ament_prefix_path')
+[0.507s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/share/moveo_description/hook/ament_prefix_path.ps1'
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/share/moveo_description/hook/ament_prefix_path.dsv'
+[0.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/share/moveo_description/hook/ament_prefix_path.sh'
+[0.511s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.511s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.518s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/walkowiczf/MoveoUnity/MoveoROS2/src/moveit_msgs' with build type 'ament_cmake'
+[0.518s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/walkowiczf/MoveoUnity/MoveoROS2/src/moveit_msgs'
+[0.518s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.519s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.524s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/walkowiczf/MoveoUnity/MoveoROS2/src/moveo_bringup' with build type 'ament_python'
+[0.525s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveo_bringup', 'ament_prefix_path')
+[0.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup/share/moveo_bringup/hook/ament_prefix_path.ps1'
+[0.527s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup/share/moveo_bringup/hook/ament_prefix_path.dsv'
+[0.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup/share/moveo_bringup/hook/ament_prefix_path.sh'
+[0.528s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.529s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.534s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/walkowiczf/MoveoUnity/MoveoROS2/src/moveo_gazebo' with build type 'ament_python'
+[0.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveo_gazebo', 'ament_prefix_path')
+[0.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/share/moveo_gazebo/hook/ament_prefix_path.ps1'
+[0.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/share/moveo_gazebo/hook/ament_prefix_path.dsv'
+[0.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/share/moveo_gazebo/hook/ament_prefix_path.sh'
+[0.539s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.539s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.545s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/walkowiczf/MoveoUnity/MoveoROS2/src/moveo_interfaces' with build type 'ament_python'
+[0.545s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveo_interfaces', 'ament_prefix_path')
+[0.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/share/moveo_interfaces/hook/ament_prefix_path.ps1'
+[0.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/share/moveo_interfaces/hook/ament_prefix_path.dsv'
+[0.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/share/moveo_interfaces/hook/ament_prefix_path.sh'
+[0.550s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.550s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.557s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/walkowiczf/MoveoUnity/MoveoROS2/src/moveo_moveit2' with build type 'ament_python'
+[0.557s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveo_moveit2', 'ament_prefix_path')
+[0.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/share/moveo_moveit2/hook/ament_prefix_path.ps1'
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/share/moveo_moveit2/hook/ament_prefix_path.dsv'
+[0.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/share/moveo_moveit2/hook/ament_prefix_path.sh'
+[0.562s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.562s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.570s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/walkowiczf/MoveoUnity/MoveoROS2/src/moveo_rviz' with build type 'ament_python'
+[0.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveo_rviz', 'ament_prefix_path')
+[0.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/share/moveo_rviz/hook/ament_prefix_path.ps1'
+[0.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/share/moveo_rviz/hook/ament_prefix_path.dsv'
+[0.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/share/moveo_rviz/hook/ament_prefix_path.sh'
+[0.576s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.576s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.583s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/walkowiczf/MoveoUnity/MoveoROS2/src/ROS-TCP-Endpoint-main-ros2' with build type 'ament_python'
+[0.583s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'ament_prefix_path')
+[0.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.ps1'
+[0.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.dsv'
+[0.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.sh'
+[0.589s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.590s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.575s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/walkowiczf/MoveoUnity/MoveoROS2/src/moveo_description'
+[1.576s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.576s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveit_msgs': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit:/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup:/home/walkowiczf/PycharmProjects/ROS2/install/my_robot_controller:/opt/ros/humble:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs /usr/bin/cmake --build /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveit_msgs -- -j8 -l8
+[2.590s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/walkowiczf/MoveoUnity/MoveoROS2/src/moveo_bringup'
+[2.591s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.591s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.094s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/walkowiczf/MoveoUnity/MoveoROS2/src/moveo_gazebo'
+[3.094s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.094s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.601s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/walkowiczf/MoveoUnity/MoveoROS2/src/moveo_interfaces'
+[3.601s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.601s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.019s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/walkowiczf/MoveoUnity/MoveoROS2/src/moveo_moveit2'
+[4.020s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.020s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.484s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/walkowiczf/MoveoUnity/MoveoROS2/src/moveo_rviz'
+[4.485s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.485s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.825s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/walkowiczf/MoveoUnity/MoveoROS2/src/ROS-TCP-Endpoint-main-ros2'
+[4.825s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.825s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveit_msgs' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit:/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup:/home/walkowiczf/PycharmProjects/ROS2/install/my_robot_controller:/opt/ros/humble:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs /usr/bin/cmake --build /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveit_msgs -- -j8 -l8
+[4.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveit_msgs': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit:/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup:/home/walkowiczf/PycharmProjects/ROS2/install/my_robot_controller:/opt/ros/humble:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs /usr/bin/cmake --install /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveit_msgs
+[6.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2/build --no-deps symlink_data
+[6.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_bringup': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_bringup/build --no-deps symlink_data
+[6.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_description': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_description/build --no-deps symlink_data
+[6.993s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_msgs)
+[6.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveit_msgs' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit:/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup:/home/walkowiczf/PycharmProjects/ROS2/install/my_robot_controller:/opt/ros/humble:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs /usr/bin/cmake --install /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveit_msgs
+[7.008s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs' for CMake module files
+[7.011s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs' for CMake config files
+[7.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_msgs', 'cmake_prefix_path')
+[7.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/share/moveit_msgs/hook/cmake_prefix_path.ps1'
+[7.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/share/moveit_msgs/hook/cmake_prefix_path.dsv'
+[7.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/share/moveit_msgs/hook/cmake_prefix_path.sh'
+[7.024s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/lib'
+[7.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_msgs', 'ld_library_path_lib')
+[7.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/share/moveit_msgs/hook/ld_library_path_lib.ps1'
+[7.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/share/moveit_msgs/hook/ld_library_path_lib.dsv'
+[7.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/share/moveit_msgs/hook/ld_library_path_lib.sh'
+[7.032s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/bin'
+[7.032s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/lib/pkgconfig/moveit_msgs.pc'
+[7.033s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/lib/python3.10/site-packages'
+[7.033s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/bin'
+[7.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/share/moveit_msgs/package.ps1'
+[7.036s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/share/moveit_msgs/package.dsv'
+[7.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/share/moveit_msgs/package.sh'
+[7.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/share/moveit_msgs/package.bash'
+[7.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/share/moveit_msgs/package.zsh'
+[7.044s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/share/colcon-core/packages/moveit_msgs)
+[7.045s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_msgs)
+[7.046s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs' for CMake module files
+[7.047s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs' for CMake config files
+[7.049s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_msgs', 'cmake_prefix_path')
+[7.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/share/moveit_msgs/hook/cmake_prefix_path.ps1'
+[7.050s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/share/moveit_msgs/hook/cmake_prefix_path.dsv'
+[7.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/share/moveit_msgs/hook/cmake_prefix_path.sh'
+[7.052s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/lib'
+[7.052s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_msgs', 'ld_library_path_lib')
+[7.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/share/moveit_msgs/hook/ld_library_path_lib.ps1'
+[7.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/share/moveit_msgs/hook/ld_library_path_lib.dsv'
+[7.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/share/moveit_msgs/hook/ld_library_path_lib.sh'
+[7.056s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/bin'
+[7.056s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/lib/pkgconfig/moveit_msgs.pc'
+[7.056s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/lib/python3.10/site-packages'
+[7.057s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/bin'
+[7.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/share/moveit_msgs/package.ps1'
+[7.059s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/share/moveit_msgs/package.dsv'
+[7.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/share/moveit_msgs/package.sh'
+[7.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/share/moveit_msgs/package.bash'
+[7.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/share/moveit_msgs/package.zsh'
+[7.063s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/share/colcon-core/packages/moveit_msgs)
+[7.071s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_interfaces': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_interfaces/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_interfaces/build --no-deps symlink_data
+[7.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo/build --no-deps symlink_data
+[7.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_rviz': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_rviz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_rviz/build --no-deps symlink_data
+[7.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/ros_tcp_endpoint': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/ros_tcp_endpoint/build --no-deps symlink_data
+[8.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveo_description', 'pythonpath_develop')
+[8.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_description/share/moveo_description/hook/pythonpath_develop.ps1'
+[8.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_description' returned '0': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_description/build --no-deps symlink_data
+[8.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_description/share/moveo_description/hook/pythonpath_develop.dsv'
+[8.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_description/share/moveo_description/hook/pythonpath_develop.sh'
+[8.866s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description' for CMake module files
+[8.868s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description' for CMake config files
+[8.875s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/lib'
+[8.875s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/bin'
+[8.875s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/lib/pkgconfig/moveo_description.pc'
+[8.876s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/lib/python3.10/site-packages'
+[8.877s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveo_description', 'pythonpath')
+[8.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/share/moveo_description/hook/pythonpath.ps1'
+[8.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/share/moveo_description/hook/pythonpath.dsv'
+[8.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/share/moveo_description/hook/pythonpath.sh'
+[8.890s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/bin'
+[8.891s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveo_description)
+[8.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/share/moveo_description/package.ps1'
+[8.894s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/share/moveo_description/package.dsv'
+[8.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/share/moveo_description/package.sh'
+[8.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/share/moveo_description/package.bash'
+[8.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/share/moveo_description/package.zsh'
+[8.904s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/share/colcon-core/packages/moveo_description)
+[8.905s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/walkowiczf/MoveoUnity/MoveoROS2/src/moveo_moveit' with build type 'ament_cmake'
+[8.907s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/walkowiczf/MoveoUnity/MoveoROS2/src/moveo_moveit'
+[8.910s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.910s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.932s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveo_rviz', 'pythonpath_develop')
+[8.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_rviz/share/moveo_rviz/hook/pythonpath_develop.ps1'
+[8.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_rviz' returned '0': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_rviz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_rviz/build --no-deps symlink_data
+[8.935s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_rviz/share/moveo_rviz/hook/pythonpath_develop.dsv'
+[8.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_rviz/share/moveo_rviz/hook/pythonpath_develop.sh'
+[8.941s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz' for CMake module files
+[8.942s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz' for CMake config files
+[8.946s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/lib'
+[8.946s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/bin'
+[8.948s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/lib/pkgconfig/moveo_rviz.pc'
+[8.949s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/lib/python3.10/site-packages'
+[8.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveo_rviz', 'pythonpath')
+[8.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/share/moveo_rviz/hook/pythonpath.ps1'
+[8.950s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/share/moveo_rviz/hook/pythonpath.dsv'
+[8.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/share/moveo_rviz/hook/pythonpath.sh'
+[8.954s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/bin'
+[8.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveo_rviz)
+[8.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/share/moveo_rviz/package.ps1'
+[8.956s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/share/moveo_rviz/package.dsv'
+[8.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/share/moveo_rviz/package.sh'
+[8.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/share/moveo_rviz/package.bash'
+[8.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/share/moveo_rviz/package.zsh'
+[8.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/share/colcon-core/packages/moveo_rviz)
+[8.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveo_bringup', 'pythonpath_develop')
+[8.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_bringup/share/moveo_bringup/hook/pythonpath_develop.ps1'
+[8.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit': AMENT_PREFIX_PATH=/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description:/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs:/home/walkowiczf/PycharmProjects/ROS2/install/my_robot_controller:/opt/ros/humble BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit:/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup:/home/walkowiczf/PycharmProjects/ROS2/install/my_robot_controller:/opt/ros/humble:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_description:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/build/ros_tcp_endpoint:/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_rviz:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_interfaces:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_bringup:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/local/lib/python3.10/dist-packages:/home/walkowiczf/PycharmProjects/ROS2/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit -- -j8 -l8
+[8.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_bringup' returned '0': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_bringup/build --no-deps symlink_data
+[8.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_bringup/share/moveo_bringup/hook/pythonpath_develop.dsv'
+[8.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_bringup/share/moveo_bringup/hook/pythonpath_develop.sh'
+[8.983s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup' for CMake module files
+[8.984s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup' for CMake config files
+[8.986s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup/lib'
+[8.986s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup/bin'
+[8.986s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup/lib/pkgconfig/moveo_bringup.pc'
+[8.987s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup/lib/python3.10/site-packages'
+[8.987s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveo_bringup', 'pythonpath')
+[8.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup/share/moveo_bringup/hook/pythonpath.ps1'
+[8.989s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup/share/moveo_bringup/hook/pythonpath.dsv'
+[8.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup/share/moveo_bringup/hook/pythonpath.sh'
+[8.991s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup/bin'
+[8.991s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveo_bringup)
+[8.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup/share/moveo_bringup/package.ps1'
+[8.993s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup/share/moveo_bringup/package.dsv'
+[8.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup/share/moveo_bringup/package.sh'
+[8.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup/share/moveo_bringup/package.bash'
+[8.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup/share/moveo_bringup/package.zsh'
+[8.996s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup/share/colcon-core/packages/moveo_bringup)
+[8.997s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveo_gazebo', 'pythonpath_develop')
+[8.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo/share/moveo_gazebo/hook/pythonpath_develop.ps1'
+[9.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo/share/moveo_gazebo/hook/pythonpath_develop.dsv'
+[9.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo' returned '0': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo/build --no-deps symlink_data
+[9.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo/share/moveo_gazebo/hook/pythonpath_develop.sh'
+[9.006s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo' for CMake module files
+[9.007s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo' for CMake config files
+[9.009s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/lib'
+[9.009s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/bin'
+[9.010s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/lib/pkgconfig/moveo_gazebo.pc'
+[9.010s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/lib/python3.10/site-packages'
+[9.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveo_gazebo', 'pythonpath')
+[9.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/share/moveo_gazebo/hook/pythonpath.ps1'
+[9.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/share/moveo_gazebo/hook/pythonpath.dsv'
+[9.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/share/moveo_gazebo/hook/pythonpath.sh'
+[9.015s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/bin'
+[9.015s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveo_gazebo)
+[9.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/share/moveo_gazebo/package.ps1'
+[9.017s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/share/moveo_gazebo/package.dsv'
+[9.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/share/moveo_gazebo/package.sh'
+[9.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/share/moveo_gazebo/package.bash'
+[9.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/share/moveo_gazebo/package.zsh'
+[9.019s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/share/colcon-core/packages/moveo_gazebo)
+[9.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveo_moveit2', 'pythonpath_develop')
+[9.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2/share/moveo_moveit2/hook/pythonpath_develop.ps1'
+[9.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2' returned '0': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2/build --no-deps symlink_data
+[9.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2/share/moveo_moveit2/hook/pythonpath_develop.dsv'
+[9.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2/share/moveo_moveit2/hook/pythonpath_develop.sh'
+[9.025s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2' for CMake module files
+[9.026s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2' for CMake config files
+[9.027s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/lib'
+[9.027s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/bin'
+[9.027s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/lib/pkgconfig/moveo_moveit2.pc'
+[9.027s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/lib/python3.10/site-packages'
+[9.028s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveo_moveit2', 'pythonpath')
+[9.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/share/moveo_moveit2/hook/pythonpath.ps1'
+[9.029s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/share/moveo_moveit2/hook/pythonpath.dsv'
+[9.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/share/moveo_moveit2/hook/pythonpath.sh'
+[9.032s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/bin'
+[9.032s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveo_moveit2)
+[9.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/share/moveo_moveit2/package.ps1'
+[9.034s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/share/moveo_moveit2/package.dsv'
+[9.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/share/moveo_moveit2/package.sh'
+[9.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/share/moveo_moveit2/package.bash'
+[9.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/share/moveo_moveit2/package.zsh'
+[9.042s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/share/colcon-core/packages/moveo_moveit2)
+[9.047s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit' returned '0': AMENT_PREFIX_PATH=/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description:/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs:/home/walkowiczf/PycharmProjects/ROS2/install/my_robot_controller:/opt/ros/humble BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit:/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup:/home/walkowiczf/PycharmProjects/ROS2/install/my_robot_controller:/opt/ros/humble:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_description:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/build/ros_tcp_endpoint:/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_rviz:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_interfaces:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_bringup:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/local/lib/python3.10/dist-packages:/home/walkowiczf/PycharmProjects/ROS2/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit -- -j8 -l8
+[9.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit': AMENT_PREFIX_PATH=/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description:/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs:/home/walkowiczf/PycharmProjects/ROS2/install/my_robot_controller:/opt/ros/humble BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit:/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup:/home/walkowiczf/PycharmProjects/ROS2/install/my_robot_controller:/opt/ros/humble:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_description:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/build/ros_tcp_endpoint:/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_rviz:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_interfaces:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_bringup:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/local/lib/python3.10/dist-packages:/home/walkowiczf/PycharmProjects/ROS2/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit
+[9.091s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveo_moveit)
+[9.092s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit' for CMake module files
+[9.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit' returned '0': AMENT_PREFIX_PATH=/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description:/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs:/home/walkowiczf/PycharmProjects/ROS2/install/my_robot_controller:/opt/ros/humble BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit:/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup:/home/walkowiczf/PycharmProjects/ROS2/install/my_robot_controller:/opt/ros/humble:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_description:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_description/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/build/ros_tcp_endpoint:/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_rviz:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_rviz/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit2:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit2/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_interfaces:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_bringup:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_bringup/lib/python3.10/site-packages:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveit_msgs/local/lib/python3.10/dist-packages:/home/walkowiczf/PycharmProjects/ROS2/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_moveit
+[9.094s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit' for CMake config files
+[9.096s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveo_moveit', 'cmake_prefix_path')
+[9.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/share/moveo_moveit/hook/cmake_prefix_path.ps1'
+[9.099s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/share/moveo_moveit/hook/cmake_prefix_path.dsv'
+[9.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/share/moveo_moveit/hook/cmake_prefix_path.sh'
+[9.101s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/bin'
+[9.102s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/lib/pkgconfig/moveo_moveit.pc'
+[9.102s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/lib/python3.10/site-packages'
+[9.103s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/bin'
+[9.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/share/moveo_moveit/package.ps1'
+[9.104s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/share/moveo_moveit/package.dsv'
+[9.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/share/moveo_moveit/package.sh'
+[9.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/share/moveo_moveit/package.bash'
+[9.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/share/moveo_moveit/package.zsh'
+[9.109s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/share/colcon-core/packages/moveo_moveit)
+[9.110s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveo_moveit)
+[9.111s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit' for CMake module files
+[9.111s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit' for CMake config files
+[9.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveo_moveit', 'cmake_prefix_path')
+[9.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/share/moveo_moveit/hook/cmake_prefix_path.ps1'
+[9.113s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/share/moveo_moveit/hook/cmake_prefix_path.dsv'
+[9.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/share/moveo_moveit/hook/cmake_prefix_path.sh'
+[9.114s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/bin'
+[9.115s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/lib/pkgconfig/moveo_moveit.pc'
+[9.115s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/lib/python3.10/site-packages'
+[9.115s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/bin'
+[9.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/share/moveo_moveit/package.ps1'
+[9.117s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/share/moveo_moveit/package.dsv'
+[9.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/share/moveo_moveit/package.sh'
+[9.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/share/moveo_moveit/package.bash'
+[9.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/share/moveo_moveit/package.zsh'
+[9.121s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_moveit/share/colcon-core/packages/moveo_moveit)
+[9.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'pythonpath_develop')
+[9.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/build/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath_develop.ps1'
+[9.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/ros_tcp_endpoint' returned '0': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/ros_tcp_endpoint/build --no-deps symlink_data
+[9.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/build/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath_develop.dsv'
+[9.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/build/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath_develop.sh'
+[9.182s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint' for CMake module files
+[9.183s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint' for CMake config files
+[9.184s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/lib'
+[9.184s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/bin'
+[9.184s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/lib/pkgconfig/ros_tcp_endpoint.pc'
+[9.185s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/lib/python3.10/site-packages'
+[9.185s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'pythonpath')
+[9.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.ps1'
+[9.186s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.dsv'
+[9.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.sh'
+[9.187s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/bin'
+[9.187s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_tcp_endpoint)
+[9.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.ps1'
+[9.189s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.dsv'
+[9.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.sh'
+[9.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.bash'
+[9.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.zsh'
+[9.191s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/walkowiczf/MoveoUnity/MoveoROS2/install/ros_tcp_endpoint/share/colcon-core/packages/ros_tcp_endpoint)
+[9.221s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveo_interfaces', 'pythonpath_develop')
+[9.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_interfaces/share/moveo_interfaces/hook/pythonpath_develop.ps1'
+[9.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_interfaces' returned '0': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_interfaces/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_interfaces/build --no-deps symlink_data
+[9.223s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_interfaces/share/moveo_interfaces/hook/pythonpath_develop.dsv'
+[9.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_interfaces/share/moveo_interfaces/hook/pythonpath_develop.sh'
+[9.225s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces' for CMake module files
+[9.225s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces' for CMake config files
+[9.226s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/lib'
+[9.227s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/bin'
+[9.227s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/lib/pkgconfig/moveo_interfaces.pc'
+[9.227s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/lib/python3.10/site-packages'
+[9.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveo_interfaces', 'pythonpath')
+[9.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/share/moveo_interfaces/hook/pythonpath.ps1'
+[9.228s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/share/moveo_interfaces/hook/pythonpath.dsv'
+[9.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/share/moveo_interfaces/hook/pythonpath.sh'
+[9.232s] Level 1:colcon.colcon_core.environment:checking '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/bin'
+[9.232s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveo_interfaces)
+[9.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/share/moveo_interfaces/package.ps1'
+[9.234s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/share/moveo_interfaces/package.dsv'
+[9.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/share/moveo_interfaces/package.sh'
+[9.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/share/moveo_interfaces/package.bash'
+[9.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/share/moveo_interfaces/package.zsh'
+[9.239s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_interfaces/share/colcon-core/packages/moveo_interfaces)
+[9.239s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.240s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.240s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.241s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.254s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[9.254s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.254s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.254s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.284s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.284s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/local_setup.ps1'
+[9.286s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/walkowiczf/MoveoUnity/MoveoROS2/install/_local_setup_util_ps1.py'
+[9.288s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/setup.ps1'
+[9.291s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/local_setup.sh'
+[9.292s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/walkowiczf/MoveoUnity/MoveoROS2/install/_local_setup_util_sh.py'
+[9.293s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/setup.sh'
+[9.297s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/local_setup.bash'
+[9.299s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/setup.bash'
+[9.302s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/local_setup.zsh'
+[9.303s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/walkowiczf/MoveoUnity/MoveoROS2/install/setup.zsh'

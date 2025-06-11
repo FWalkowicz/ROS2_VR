@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: moveo_description
+    relative_path: description/moveo.urdf.xacro
+  srdf:
+    relative_path: config/moveo_urdf.srdf
+  package_settings:
+    author_name: Filip
+    author_email: walkowiczf@gmail.com
+    generated_timestamp: 1742506514
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

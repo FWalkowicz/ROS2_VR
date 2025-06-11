@@ -1,0 +1,26 @@
+[1.816s] Invoking command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo/build --no-deps symlink_data
+[2.244s] running develop
+[2.636s] running egg_info
+[2.662s] creating moveo_gazebo.egg-info
+[2.663s] writing moveo_gazebo.egg-info/PKG-INFO
+[2.664s] writing dependency_links to moveo_gazebo.egg-info/dependency_links.txt
+[2.664s] writing requirements to moveo_gazebo.egg-info/requires.txt
+[2.664s] writing top-level names to moveo_gazebo.egg-info/top_level.txt
+[2.664s] writing manifest file 'moveo_gazebo.egg-info/SOURCES.txt'
+[2.700s] reading manifest file 'moveo_gazebo.egg-info/SOURCES.txt'
+[2.701s] writing manifest file 'moveo_gazebo.egg-info/SOURCES.txt'
+[2.718s] running build_ext
+[2.718s] Creating /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/lib/python3.10/site-packages/moveo-gazebo.egg-link (link to .)
+[2.718s] 
+[2.718s] Installed /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo
+[2.718s] running symlink_data
+[2.719s] creating /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/share/ament_index/resource_index/packages
+[2.719s] symbolically linking /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo/resource/moveo_gazebo -> /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/share/ament_index/resource_index/packages
+[2.719s] symbolically linking /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo/package.xml -> /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/share/moveo_gazebo
+[2.719s] creating /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/share/moveo_gazebo/launch
+[2.719s] symbolically linking /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo/launch/controllers.launch.py -> /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/share/moveo_gazebo/launch
+[2.719s] symbolically linking /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo/launch/simulation.launch.py -> /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/share/moveo_gazebo/launch
+[2.719s] symbolically linking /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo/launch/simulation_save.launch.py -> /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/share/moveo_gazebo/launch
+[2.719s] creating /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/share/moveo_gazebo/config
+[2.719s] symbolically linking /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo/config/controllers.yaml -> /home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/share/moveo_gazebo/config
+[2.763s] Invoked command in '/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo' returned '0': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/walkowiczf/MoveoUnity/MoveoROS2/install/moveo_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/walkowiczf/MoveoUnity/MoveoROS2/build/moveo_gazebo/build --no-deps symlink_data

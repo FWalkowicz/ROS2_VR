@@ -1,0 +1,1 @@
+/home/walkowiczf/MoveoUnity/MoveoROS2/src/moveit_msgs/msg/MotionPlanDetailedResponse.msg
